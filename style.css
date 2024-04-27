@@ -1,1 +1,101 @@
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --white: #ffff;
+    --black: #000000;
+    --grey: #dcdbde;
+    --nav: #053f5c;
+    --list-bg: #429ebd;
+    --yellow: #f7ad19;
+    --containder-bg: #4d6d9a;
+}
+
+.body{
+    background-color: var(--white);
+}
+
+.navbar{
+    background-color: var(--nav);
+    height: 100%;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar h1{
+    padding: 20px;
+    color:var(--yellow);
+}
+
+.container input{
+    margin: 10px;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: var(--containder-bg);
+    color: var(--white);
+    outline: none;
+}
+
+.container button{
+    border-radius: 100%;
+    padding: 20px;
+    border: none;
+    background-color: var(--nav);
+    font-size: 18px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.container input::placeholder{
+    color: var(--grey);
+}
+
+.container{
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+
+.container button:hover{
+    color: var(--yellow);
+}
+
+.list{
+    background-color: var(--list-bg);
+    width: 20%;
+    height: 10%;
+    text-align: center;
+    margin: 30px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.list p{
+    padding: 20px;
+    font-size: 20px;
+    color: var(--white);
+    text-align: left;
+}
+
+.list button{
+    color: var(--black);
+    background-color: var(--white);
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.list button:hover{
+    color: var(--black);
+    background-color: var(--yellow)
+}
+.list{
+    vertical-align: top;
+}
