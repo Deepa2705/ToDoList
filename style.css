@@ -143,3 +143,25 @@
         justify-content: space-between;
     }
 }
+
+/* Mobile screen */
+@media screen and (max-width:320px) {
+    .container input{
+        padding: 13px 10px;
+        font-size: 15px;
+    }
+
+    .container button{
+        padding: 13px;
+        font-size: 15px;
+    }
+
+    .list p{
+        padding: 13px;
+        font-size: 15px;
+    }
+
+    .list button{
+        font-size: 12px;
+    }
+}
