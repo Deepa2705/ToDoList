@@ -147,21 +147,21 @@
 /* Mobile screen */
 @media screen and (max-width:320px) {
     .container input{
-        padding: 13px 10px;
-        font-size: 15px;
+        padding: 10px 10px;
+        font-size: 13px;
     }
 
     .container button{
-        padding: 13px;
-        font-size: 15px;
+        padding: 10px;
+        font-size: 13px;
     }
 
     .list p{
-        padding: 13px;
-        font-size: 15px;
+        padding: 10px;
+        font-size: 13px;
     }
 
     .list button{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
