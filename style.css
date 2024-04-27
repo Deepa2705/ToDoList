@@ -108,6 +108,28 @@
 }
 
 /* Media queries*/
+/* Mobile screen */
+@media screen and (max-width:320px) {
+    .container input{
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+
+    .container button{
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .list p{
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .list button{
+        font-size: 10px;
+    }
+}
+
 @media screen and (min-width:1080px) and (max-width:1440px) {
     .list{
         flex-grow: 1;
@@ -141,27 +163,5 @@
     }
     .list-items{
         justify-content: space-between;
-    }
-}
-
-/* Mobile screen */
-@media screen and (max-width:320px) {
-    .container input{
-        padding: 10px 10px;
-        font-size: 13px;
-    }
-
-    .container button{
-        padding: 10px;
-        font-size: 13px;
-    }
-
-    .list p{
-        padding: 10px;
-        font-size: 13px;
-    }
-
-    .list button{
-        font-size: 10px;
     }
 }
